@@ -1,0 +1,110 @@
+
+/************************************** NAV BAR */
+.top-nav {
+   width: 100%;
+   background: rgba(120,120,120, 0.2);
+   border: solid 1px #f1f1f1;
+   padding: 10px;
+   margin-bottom: 10px;
+ }
+
+ .nav-list {
+   display: flex;
+   margin: 0px 5px;
+   padding: 0;
+   list-style: none;
+   color: blue;
+ }
+
+ .nav-list__item {
+  margin: 1rem 0.5rem;
+}
+
+ .nav-list__item--brand {
+   flex: 1;
+   font-size: 1.5em;
+   font-weight: bold;
+   margin: 10px;
+ }
+
+/************************************** KITTIES */
+  .grinchcat {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border:2px solid #f1f1f1;
+    margin: 5px;
+
+}
+
+  .ironcat {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border:2px solid #f1f1f1;
+    margin: 5px;
+  }
+
+  .nyantocat {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border:2px solid #f1f1f1;
+    margin: 5px;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #b9bfc9;
+    float: right;
+  }
+
+
+/************************************** AUTHORS */
+  .graycat {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    color: gray;
+  }
+
+
+.guy {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+  color: gray;
+  }
+
+
+.guy2 {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+  color: gray;
+  }
+
+a {
+  color: blue;
+}
+
+
+.gray-divider {
+  height: .01em;
+  background-color: #f1f1f1;
+  clear: both;
+}
+
+.authors {
+  float: right;
+}
+
+p {
+  float: left;
+}
